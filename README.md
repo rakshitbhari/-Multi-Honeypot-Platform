@@ -63,4 +63,30 @@ This displays the current inbound port rules configuration with 5 active rules. 
 
 PuTTY configuration window showing the SSH connection setup for remote access to the honeypot system. The configuration includes host IP address (20.93.68.74), port 22, and SSH connection type. The interface displays various configuration categories including session management, terminal settings, and connection parameters for secure remote administration and monitoring capabilities.
 
+### 13. SSH Connection to HoneyPot System
+![SSH Login](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/13.png)
+This shows the successful SSH connection to the HoneyPot virtual machine running Ubuntu 24.04.1 LTS. The terminal displays the login as user "CyberCheck" to IP address 20.93.68.74. System information includes current load (0.01), memory usage (2%), processes (148), and network configuration. The system shows 0 security updates available and provides links to Ubuntu documentation and support resources.
+
+### 14. T-Pot Installation Process
+![T-Pot Setup](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/14.png)
+The terminal shows the T-Pot honeypot platform installation process. After installing Git, the system clones the T-Pot repository from GitHub (telekom-security/tpotce.git). The installation progress displays object enumeration, counting, compression, and resolution phases. The T-Pot ASCII art logo is visible, indicating the honeypot framework is being set up for threat detection and analysis.
+
+### 15. T-Pot System Updates and Configuration
+![T-Pot Updates](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/15.png)
+This displays the T-Pot system performing package updates and dependency resolution. The terminal shows the system reading package lists, building dependency trees, and updating system components. The T-Pot "Update IP" and "Clean up" ASCII banners are visible, indicating the honeypot is configuring network settings and cleaning up installation files. The system reports 0 packages to upgrade, confirming a clean installation state.
+
+### 16. T-Pot Web Dashboard Interface
+![T-Pot Dashboard](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/16.png)
+The T-Pot web interface dashboard accessible at https://20.51.253.206:64297 showing the main control panel at 11:29 with a "Good morning" greeting. The dashboard provides access to various security tools including Attack Map, Cockpit, Cyberchef, Elasticvue, Kibana, Spiderfoot, SecurityMeter, T-Pot GitHub repository, and T-Pot ReadMe. The hexagonal design with the T-POG logo represents the comprehensive honeypot platform for cyberthreat monitoring and analysis.
+
+### 17. T-Pot Honeypot Global Attack Map
+![T-Pot Global Attack Map](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/17.png)
+Interactive world map displaying real-time honeypot attack statistics with geographical visualization. Shows attack origins with connection lines and provides detailed statistics including last minute (91), last hour (2463), and last 24 hours (98331) attacks. Features service breakdown by protocol (FTP, SSH, TELNET, EMAIL, SQL, DNS, HTTP) with attack source countries and IP addresses for comprehensive threat intelligence.
+
+### 18. T-Pot Honeypot Analytics Dashboard
+![T-Pot Analytics Dashboard](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/21e4508bea8712c19d20cf2cd0c96bb9cf9d630c/Images/18.png)
+Comprehensive Elastic/Kibana dashboard showing detailed honeypot attack analytics over the last 24 hours. Features multiple visualization panels including top 10 honeypot attacks summary (Dionaea: 41,944, HoneyTrap: 15,829, etc.), attack frequency histograms, time-series charts, geographic attack distribution with dynamic world map, destination port analysis, country-wise attack statistics, and attacker IP reputation data with OS distribution metrics.
+
+---
+
 
