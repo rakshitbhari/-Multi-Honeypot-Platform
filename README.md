@@ -60,6 +60,7 @@ This displays the current inbound port rules configuration with 5 active rules. 
 
 ### 12. PuTTY SSH Configuration
 ![PuTTY Configuration](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/b344025fb1e3138f547801a799e41f407cd2948a/Images/12.png)
+
 PuTTY configuration window showing the SSH connection setup for remote access to the honeypot system. The configuration includes host IP address (20.93.68.74), port 22, and SSH connection type. The interface displays various configuration categories including session management, terminal settings, and connection parameters for secure remote administration and monitoring capabilities.
 
 
