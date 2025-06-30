@@ -13,3 +13,19 @@ The purpose of a honeypot is to divert and distract attackers from the actual ta
 Given my interest in cybersecurity, I was naturally curious about how attackers in the real world might attack a system in the wild and decided to find out first hand. I used Azure so spin up a VM for safety (no "real"/ procuction system would be put at risk) and Telekom Security's Tpot honeypot to act as an irresistible  target (https://github.com/telekom-security/tpotce). 
 
  ## 🛠️ Implementation Steps
+
+### 1. Installing PuTTY for SSH Access
+![PuTTY Installation](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/4d9c36f8c7f09a63b0e34f9dcb7314e166b20290/Images/1.png)
+PuTTY is a free and open-source SSH client used to access the T-Pot honeypot server remotely. It helps establish a secure terminal connection between the local machine and the Azure-hosted VM.
+
+### 2. Microsoft Azure Homepage
+![Azure Homepage](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/4d9c36f8c7f09a63b0e34f9dcb7314e166b20290/Images/2.png)
+This is the Azure portal homepage, where resources such as virtual machines, networks, and storage can be created and managed. It serves as the foundation for deploying and running the T-Pot honeypot environment.
+
+### 3. Azure Dashboard with Created Resources
+![Azure Dashboard](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/4d9c36f8c7f09a63b0e34f9dcb7314e166b20290/Images/3.png)
+The Azure dashboard displays the deployed resources for this project, including the virtual machine for T-Pot, a Log Analytics workspace, and a resource group for better organization and monitoring.
+
+### 4. Creating a Virtual Machine in Azure
+![Create VM](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/4d9c36f8c7f09a63b0e34f9dcb7314e166b20290/Images/4.png)
+This screenshot shows the process of setting up a virtual machine in Azure. It includes selecting the subscription, resource group, and configuration options necessary to host the T-Pot honeypot platform.
