@@ -46,3 +46,20 @@ The Azure portal confirms that the VM deployment is complete. This status indica
 ![VM Overview](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/6ba5b5fa9eada639dfce855008f3860e0f9ae734/Images/8.png)  
 The virtual machine is now running and accessible. The assigned public IP address `20.93.68.74` allows remote SSH connections, which is critical for installing and managing T-Pot honeypot services.
 
+### 9. Network Security Group Overview
+![Network Security Group](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/b344025fb1e3138f547801a799e41f407cd2948a/Images/9.png)
+This shows the main Network Security Group (NSG) configuration for the HoneyPot virtual machine. The NSG named "HoneyPot-nsg" is attached to network interface "honeypot215_z1" and provides essential network traffic control. It impacts 0 subnets and 1 network interface, offering granular security management for the honeypot system.
+
+### 10. Port Rule Management Interface
+![Port Rule Management](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/b344025fb1e3138f547801a799e41f407cd2948a/Images/10.png)
+The NSG configuration interface allows creation and management of both inbound and outbound port rules. This interface provides options to configure source and destination IP ranges, protocol specifications (TCP, UDP, Any), port ranges, and action settings (Allow/Deny) for comprehensive network security control.
+
+### 11. Security Rules Configuration
+![Security Rules Table](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/b344025fb1e3138f547801a799e41f407cd2948a/Images/11.png)
+This displays the current inbound port rules configuration with 5 active rules. Key rules include SSH access on port 22 (priority 300) and a wide port range rule (1-65535) for traffic analysis (priority 310). These rules are strategically designed to attract and monitor malicious traffic while maintaining controlled administrative access to the honeypot system.
+
+### 12. PuTTY SSH Configuration
+![PuTTY Configuration](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/b344025fb1e3138f547801a799e41f407cd2948a/Images/12.png)
+PuTTY configuration window showing the SSH connection setup for remote access to the honeypot system. The configuration includes host IP address (20.93.68.74), port 22, and SSH connection type. The interface displays various configuration categories including session management, terminal settings, and connection parameters for secure remote administration and monitoring capabilities.
+
+
