@@ -29,3 +29,20 @@ The Azure dashboard displays the deployed resources for this project, including 
 ### 4. Creating a Virtual Machine in Azure
 ![Create VM](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/4d9c36f8c7f09a63b0e34f9dcb7314e166b20290/Images/4.png)
 This screenshot shows the process of setting up a virtual machine in Azure. It includes selecting the subscription, resource group, and configuration options necessary to host the T-Pot honeypot platform.
+
+### 5. Selecting Ubuntu Image for VM
+![Ubuntu Image Selection](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/6ba5b5fa9eada639dfce855008f3860e0f9ae734/Images/5.png)  
+During the VM setup, the image **Ubuntu Server 24.04 LTS - x64 Gen2** was selected. This OS provides a secure and updated environment ideal for deploying security tools like T-Pot.
+
+### 6. Azure Deployment in Progress
+![Deployment In Progress](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/6ba5b5fa9eada639dfce855008f3860e0f9ae734/Images/6.png)  
+After initiating the virtual machine creation, Azure shows the status as "Deployment in progress" under the resource group `RG-Honeypot`. This ensures all configuration steps are being processed.
+
+### 7. Deployment Completed Successfully
+![Deployment Complete](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/6ba5b5fa9eada639dfce855008f3860e0f9ae734/Images/7.png)  
+The Azure portal confirms that the VM deployment is complete. This status indicates that the virtual machine is now ready for further configuration and SSH access.
+
+### 8. VM Overview with Public IP
+![VM Overview](https://github.com/rakshitbhari/-Multi-Honeypot-Platform/blob/6ba5b5fa9eada639dfce855008f3860e0f9ae734/Images/8.png)  
+The virtual machine is now running and accessible. The assigned public IP address `20.93.68.74` allows remote SSH connections, which is critical for installing and managing T-Pot honeypot services.
+
